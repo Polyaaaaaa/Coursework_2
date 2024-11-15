@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "coursework-2"
+version = "0.1.0"
+description = ""
+authors = ["Polyaa <polinasatrajkina@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flake8 = "^7.1.1"
+isort = "^5.13.2"
+mypy = "^1.13.0"
+black = "^24.10.0"
+pytest = "^8.3.3"
+requests = "^2.32.3"
+psycopg2 = "^2.9.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
