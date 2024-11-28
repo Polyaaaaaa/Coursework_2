@@ -55,6 +55,31 @@ class DBManager:
             """
             cur.execute(query)
 
+            # query = """
+            #     WITH ranked_vacancies AS (
+            #         SELECT
+            #             e.employer_name,
+            #             v.vacancy_name,
+            #             v.salary,
+            #             v.vacancy_url,
+            #             ROW_NUMBER() OVER (PARTITION BY e.employer_name ORDER BY v.vacancy_name) AS rn
+            #         FROM
+            #             vacancies v
+            #         JOIN
+            #             employees e ON v.employees_id = e.employees_id
+            #     )
+            #     SELECT
+            #         employer_name,
+            #         vacancy_name,
+            #         salary,
+            #         vacancy_url
+            #     FROM
+            #         ranked_vacancies
+            #     WHERE
+            #         rn = 1
+            #             """
+            # cur.execute(query)
+
             # Закрытие курсора и соединения
             cur.close()
             conn.close()
@@ -147,7 +172,7 @@ class DBManager:
         avg_salary = self.get_avg_salary()
         with self.connection.cursor() as cursor:
             query = sql.SQL("""
-            SELECT employer_name, vacancy_name, salary, vacancy_url
+            SELECT vacancy_name, salary, vacancy_url
             FROM vacancies
             WHERE salary <> 'Не указано'
               AND CAST(salary AS INTEGER) > (
@@ -166,7 +191,7 @@ class DBManager:
 
         with self.connection.cursor() as cursor:
             query = """
-                SELECT employer_name, vacancy_name, salary, vacancy_url
+                SELECT vacancy_name, salary, vacancy_url
                 FROM vacancies
                 WHERE vacancy_name ILIKE %s
             """

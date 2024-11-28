@@ -1,7 +1,6 @@
 import requests
 import json
 
-
 class HeadHunterAPI:
     def __init__(self):
         self.url = "https://api.hh.ru/vacancies"
@@ -12,7 +11,9 @@ class HeadHunterAPI:
     def get_vacancies(self, employer_id):
         self.params["employer_id"] = employer_id
         self.params["page"] = 0
-        while self.params["page"] < 20:
+        total_vacancies = 0
+
+        while total_vacancies < 20:
             response = requests.get(self.url, headers=self.headers, params=self.params)
 
             if response.status_code != 200:
@@ -22,13 +23,22 @@ class HeadHunterAPI:
             vacancies = response.json().get("items", [])
             if not vacancies:
                 break
-            self.vacancies.extend(vacancies)
+
+            # Добавляем вакансии в список, пока их количество не достигнет 20
+            for vacancy in vacancies:
+                if total_vacancies >= 20:
+                    break
+                self.vacancies.append(vacancy)
+                total_vacancies += 1
+
             self.params["page"] += 1
 
         # Запись полученных данных в файл
         with open("vacancies.json", "w", encoding="utf-8") as file:
             json.dump(self.vacancies, file, ensure_ascii=False, indent=4)
-        return self.vacancies
+
+        return self.vacancies[:20]  # Возвращаем только первые 20 вакансий
+
 
 
 # # Создаем экземпляр класса HeadHunterAPI
