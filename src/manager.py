@@ -1,27 +1,8 @@
 import psycopg2
 from psycopg2 import sql
 
-
-# class AbsManager(ABC):
-#     @abstractmethod
-#     def get_companies_and_vacancies_count(self):
-#         pass
-#
-#     @abstractmethod
-#     def get_all_vacancies(self):
-#         pass
-#
-#     @abstractmethod
-#     def get_avg_salary(self):
-#         pass
-#
-#     @abstractmethod
-#     def get_vacancies_with_higher_salary(self):
-#         pass
-#
-#     @abstractmethod
-#     def get_vacancies_with_keyword(self):
-#         pass
+from src.config import config
+from src.hh import HeadHunterAPI
 
 
 class DBManager:
@@ -29,15 +10,9 @@ class DBManager:
 
     def __init__(self, dbname, params):
         """инициализация"""
-        # self.connection = psycopg2.connect(
-        #     dbname=dbname,
-        #     user=user,
-        #     password=password,
-        #     host=host,
-        #     port=port,
-        # )
         self.dbname = dbname
         self.params = params
+        self.connection = None
 
     def create_table_and_database(self):
         """Создание базы данных и таблиц."""
@@ -60,36 +35,22 @@ class DBManager:
             conn = psycopg2.connect(dbname=self.dbname, **self.params, client_encoding='utf8')
             conn.autocommit = True
             cur = conn.cursor()
-
-            # Создание таблицы vacancies
-            query = """
-                CREATE TABLE IF NOT EXISTS vacancies (
-                    id SERIAL PRIMARY KEY,
-                    employer_name VARCHAR(255),
-                    vacancy_name VARCHAR(255),
-                    salary VARCHAR(255),
-                    vacancy_url VARCHAR(255)
-                )
-            """
-            cur.execute(query)
-
-            # Создание таблицы employees
             query = """
                 CREATE TABLE IF NOT EXISTS employees (
-                    employer_id VARCHAR(255),
+                    employees_id SERIAL PRIMARY KEY,
                     employer_name VARCHAR(255)
                 )
             """
             cur.execute(query)
 
-            # Создание таблицы vacancy
+            # Создание таблицы vacancies
             query = """
-                CREATE TABLE IF NOT EXISTS vacancy (
+                CREATE TABLE IF NOT EXISTS vacancies (
                     id SERIAL PRIMARY KEY,
-                    employer_id VARCHAR(255),
-                    employer_title VARCHAR(255),
-                    vacancy_id VARCHAR(255),
-                    vacancy_title VARCHAR(255)
+                    vacancy_name VARCHAR(255),
+                    salary VARCHAR(255),
+                    vacancy_url VARCHAR(255),
+                    employees_id INT REFERENCES employees(employees_id)
                 )
             """
             cur.execute(query)
@@ -100,7 +61,6 @@ class DBManager:
 
         except Exception as e:
             print(f"Ошибка при создании базы данных или таблиц: {e}")
-
 
         self.connection = psycopg2.connect(
             dbname=self.dbname,
@@ -114,12 +74,26 @@ class DBManager:
     def insert_vacancies(self, vacancies):
         with self.connection.cursor() as cursor:
             for vacancy in vacancies:
-                query = sql.SQL("""
-                    INSERT INTO vacancies (employer_name, vacancy_name, salary, vacancy_url)
+                employer_name = vacancy['employer']['name']
+
+                # Проверка, существует ли работодатель в таблице employees
+                cursor.execute("SELECT employees_id FROM employees WHERE employer_name = %s", (employer_name,))
+                result = cursor.fetchone()
+
+                if result:
+                    employees_id = result[0]
+                else:
+                    # Вставка нового работодателя и получение его employees_id
+                    cursor.execute("INSERT INTO employees (employer_name) VALUES (%s) RETURNING employees_id",
+                                   (employer_name,))
+                    employees_id = cursor.fetchone()[0]
+
+                # Вставка вакансии
+                cursor.execute("""
+                    INSERT INTO vacancies (employees_id, vacancy_name, salary, vacancy_url)
                     VALUES (%s, %s, %s, %s)
-                """)
-                cursor.execute(query, (
-                    vacancy['employer']['name'],
+                """, (
+                    employees_id,
                     vacancy['name'],
                     vacancy.get('salary', {}).get('from', 'Не указано') if vacancy.get('salary') else 'Не указано',
                     vacancy['alternate_url']
@@ -131,9 +105,10 @@ class DBManager:
 
         with self.connection.cursor() as cursor:
             query = sql.SQL("""
-                SELECT employer_name, COUNT(*)
-                FROM vacancies
-                GROUP BY employer_name
+                SELECT e.employer_name, COUNT(*)
+                FROM vacancies v
+                JOIN employees e ON v.employees_id = e.employees_id
+                GROUP BY e.employer_name
             """)
             cursor.execute(query)
             result = cursor.fetchall()
@@ -172,11 +147,16 @@ class DBManager:
         avg_salary = self.get_avg_salary()
         with self.connection.cursor() as cursor:
             query = sql.SQL("""
-                        SELECT employer_name, vacancy_name, salary, vacancy_url
-                        FROM vacancies
-                        WHERE CAST(salary AS INTEGER) > %s
+            SELECT employer_name, vacancy_name, salary, vacancy_url
+            FROM vacancies
+            WHERE salary <> 'Не указано'
+              AND CAST(salary AS INTEGER) > (
+                SELECT AVG(CAST(salary AS INTEGER))
+                FROM vacancies
+                WHERE salary <> 'Не указано'
+              )
                     """)
-            cursor.execute(query, (avg_salary,))
+            cursor.execute(query)
             result = cursor.fetchall()
         return result
 
@@ -185,15 +165,29 @@ class DBManager:
         содержатся переданные в метод слова, например python."""
 
         with self.connection.cursor() as cursor:
-            query = sql.SQL("""
+            query = """
                 SELECT employer_name, vacancy_name, salary, vacancy_url
                 FROM vacancies
                 WHERE vacancy_name ILIKE %s
-            """)
+            """
             cursor.execute(query, (f"%{keyword}%",))
             result = cursor.fetchall()
         return result
 
+# # Пример использования
+# hh_api = HeadHunterAPI()
+# vacancies = hh_api.get_vacancies([1740, 3529, 23427, 3772, 15478, 1057, 1122462, 19923, 1001, 2180])
 # params = config()
-# emp1 = DBManager('asasasas', params)
-# emp1.create_table_and_database()
+# db_manager = DBManager('asardgdfgdfgdsasas', params)
+#
+# # Убедитесь, что база данных и таблицы созданы перед выполнением других операций
+# db_manager.create_table_and_database()
+# #
+# # Вставка вакансий в базу данных
+# print(db_manager.insert_vacancies(vacancies))
+
+# # Получение вакансий с зарплатой выше средней
+# db_manager.get_vacancies_with_higher_salary()
+#
+# # список всех вакансий, в названии которых содержатся переданные в метод слова
+# db_manager.get_vacancies_with_keyword("python")

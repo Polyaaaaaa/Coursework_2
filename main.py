@@ -11,7 +11,7 @@ def main():
 
     # Создание экземпляра DBManager и подключение к базе данных
     db_manager = DBManager(
-        dbname="postgres",
+        dbname="postgresaa",
         params=params
     )
 
@@ -28,22 +28,26 @@ def main():
         vacancies = hh_api.get_vacancies(employer_id)
         all_vacancies.extend(vacancies)
 
+    print("Все вакансии:")
+    for vacancy in all_vacancies:
+        print(vacancy)
+
     # Вставка данных о вакансиях в базу данных
     db_manager.insert_vacancies(all_vacancies)
 
-    # Примеры использования методов DBManager
-    avg_salary = db_manager.get_avg_salary()
-    print(f"Средняя зарплата: {avg_salary}")
-
-    vacancies_with_higher_salary = db_manager.get_vacancies_with_higher_salary()
-    print("Вакансии с зарплатой выше средней:")
-    for vacancy in vacancies_with_higher_salary:
-        print(vacancy)
-
-    vacancies_with_keyword = db_manager.get_vacancies_with_keyword("python")
-    print("Вакансии, содержащие слово 'python':")
-    for vacancy in vacancies_with_keyword:
-        print(vacancy)
+    # # Примеры использования методов DBManager
+    # avg_salary = db_manager.get_avg_salary()
+    # print(f"Средняя зарплата: {avg_salary}")
+    #
+    # vacancies_with_higher_salary = db_manager.get_vacancies_with_higher_salary()
+    # print("Вакансии с зарплатой выше средней:")
+    # for vacancy in vacancies_with_higher_salary:
+    #     print(vacancy)
+    #
+    # vacancies_with_keyword = db_manager.get_vacancies_with_keyword("python")
+    # print("Вакансии, содержащие слово 'python':")
+    # for vacancy in vacancies_with_keyword:
+    #     print(vacancy)
 
 
 if __name__ == "__main__":
