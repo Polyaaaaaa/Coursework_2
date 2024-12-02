@@ -1,0 +1,1746 @@
+{
+  "items": [
+    {
+      "id": "109958537",
+      "premium": false,
+      "name": "Диспетчер чатов (в Яндекс)",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "113",
+        "name": "Россия",
+        "url": "https://api.hh.ru/areas/113"
+      },
+      "salary": {
+        "from": 30000,
+        "to": 44000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2024-11-02T13:44:35+0300",
+      "created_at": "2024-11-02T13:44:35+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=109958537",
+      "show_logo_in_search": null,
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/109958537?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/109958537",
+      "relations": [],
+      "employer": {
+        "id": "9498120",
+        "name": "Яндекс Команда для бизнеса",
+        "url": "https://api.hh.ru/employers/9498120",
+        "alternate_url": "https://hh.ru/employer/9498120",
+        "logo_urls": {
+          "original": "https://img.hhcdn.ru/employer-logo-original/1121425.jpg",
+          "90": "https://img.hhcdn.ru/employer-logo/6106293.jpeg",
+          "240": "https://img.hhcdn.ru/employer-logo/6106294.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9498120",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Способен работать в команде. Способен принимать решения самостоятельно. Готов учиться и узнавать новое. Опыт работы в колл-центре или службе...",
+        "responsibility": "Работать с клиентами или партнерами для решения разнообразных ситуаций. Развивать процессы и инструменты для улучшения качества сервисов."
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "40",
+          "name": "Другое"
+        }
+      ],
+      "accept_incomplete_resumes": true,
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false,
+      "adv_context": null
+    },
+    {
+      "id": "109958418",
+      "premium": false,
+      "name": "Менеджер чатов (в Яндекс)",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "113",
+        "name": "Россия",
+        "url": "https://api.hh.ru/areas/113"
+      },
+      "salary": {
+        "from": 30000,
+        "to": 44000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2024-11-02T13:43:35+0300",
+      "created_at": "2024-11-02T13:43:35+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=109958418",
+      "show_logo_in_search": null,
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/109958418?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/109958418",
+      "relations": [],
+      "employer": {
+        "id": "9498120",
+        "name": "Яндекс Команда для бизнеса",
+        "url": "https://api.hh.ru/employers/9498120",
+        "alternate_url": "https://hh.ru/employer/9498120",
+        "logo_urls": {
+          "original": "https://img.hhcdn.ru/employer-logo-original/1121425.jpg",
+          "90": "https://img.hhcdn.ru/employer-logo/6106293.jpeg",
+          "240": "https://img.hhcdn.ru/employer-logo/6106294.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9498120",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Способен работать в команде. Способен принимать решения самостоятельно. Готов учиться и узнавать новое. Опыт работы в колл-центре или службе...",
+        "responsibility": "Работать с клиентами или партнерами для решения разнообразных ситуаций. Совершать звонки по их обращениям и давать письменные ответы. "
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "40",
+          "name": "Другое"
+        }
+      ],
+      "accept_incomplete_resumes": true,
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false,
+      "adv_context": null
+    },
+    {
+      "id": "109459232",
+      "premium": false,
+      "name": "Менеджер по развитию клиентов",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "53",
+        "name": "Краснодар",
+        "url": "https://api.hh.ru/areas/53"
+      },
+      "salary": {
+        "from": 45000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2024-11-12T08:18:02+0300",
+      "created_at": "2024-11-12T08:18:02+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=109459232",
+      "branding": {
+        "type": "MAKEUP",
+        "tariff": null
+      },
+      "show_logo_in_search": true,
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/109459232?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/109459232",
+      "relations": [],
+      "employer": {
+        "id": "9498120",
+        "name": "Яндекс Команда для бизнеса",
+        "url": "https://api.hh.ru/employers/9498120",
+        "alternate_url": "https://hh.ru/employer/9498120",
+        "logo_urls": {
+          "original": "https://img.hhcdn.ru/employer-logo-original/1121425.jpg",
+          "90": "https://img.hhcdn.ru/employer-logo/6106293.jpeg",
+          "240": "https://img.hhcdn.ru/employer-logo/6106294.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9498120",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": null,
+        "responsibility": "Развивать отношения с действующими корпоративными клиентами малого и среднего бизнеса. Совершать звонки по базе потенциальных клиентов. Работать в CRM-системе. "
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "70",
+          "name": "Менеджер по продажам, менеджер по работе с клиентами"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false,
+      "adv_context": null
+    },
+    {
+      "id": "109459231",
+      "premium": false,
+      "name": "Менеджер по развитию клиентов",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "78",
+        "name": "Самара",
+        "url": "https://api.hh.ru/areas/78"
+      },
+      "salary": {
+        "from": 45000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2024-11-12T08:17:57+0300",
+      "created_at": "2024-11-12T08:17:57+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=109459231",
+      "branding": {
+        "type": "MAKEUP",
+        "tariff": null
+      },
+      "show_logo_in_search": true,
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/109459231?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/109459231",
+      "relations": [],
+      "employer": {
+        "id": "9498120",
+        "name": "Яндекс Команда для бизнеса",
+        "url": "https://api.hh.ru/employers/9498120",
+        "alternate_url": "https://hh.ru/employer/9498120",
+        "logo_urls": {
+          "original": "https://img.hhcdn.ru/employer-logo-original/1121425.jpg",
+          "90": "https://img.hhcdn.ru/employer-logo/6106293.jpeg",
+          "240": "https://img.hhcdn.ru/employer-logo/6106294.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9498120",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": null,
+        "responsibility": "Развивать отношения с действующими корпоративными клиентами малого и среднего бизнеса. Совершать звонки по базе потенциальных клиентов. Работать в CRM-системе. "
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "70",
+          "name": "Менеджер по продажам, менеджер по работе с клиентами"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false,
+      "adv_context": null
+    },
+    {
+      "id": "111749553",
+      "premium": false,
+      "name": "Менеджер по логистике в Яндекс.Маркет",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1"
+      },
+      "salary": {
+        "from": 122900,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": {
+        "city": "Москва",
+        "street": "Промышленная улица",
+        "building": "12А",
+        "lat": 55.63717803377986,
+        "lng": 37.628248588954754,
+        "description": null,
+        "raw": "Москва, Промышленная улица, 12А",
+        "metro": {
+          "station_name": "Кантемировская",
+          "line_name": "Замоскворецкая",
+          "station_id": "2.42",
+          "line_id": "2",
+          "lat": 55.636107,
+          "lng": 37.656218
+        },
+        "metro_stations": [
+          {
+            "station_name": "Кантемировская",
+            "line_name": "Замоскворецкая",
+            "station_id": "2.42",
+            "line_id": "2",
+            "lat": 55.636107,
+            "lng": 37.656218
+          }
+        ],
+        "id": "13725692"
+      },
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2024-11-25T12:01:03+0300",
+      "created_at": "2024-11-25T12:01:03+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=111749553",
+      "branding": {
+        "type": "MAKEUP",
+        "tariff": null
+      },
+      "show_logo_in_search": true,
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/111749553?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/111749553",
+      "relations": [],
+      "employer": {
+        "id": "9498120",
+        "name": "Яндекс Команда для бизнеса",
+        "url": "https://api.hh.ru/employers/9498120",
+        "alternate_url": "https://hh.ru/employer/9498120",
+        "logo_urls": {
+          "90": "https://img.hhcdn.ru/ichameleon/398632.png",
+          "240": "https://img.hhcdn.ru/ichameleon/398632.png",
+          "original": "https://img.hhcdn.ru/ichameleon/398632.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9498120",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Имеешь опыт работы в логистике. Умеешь работать в условиях многозадачности, неопределённости и способны расставлять приоритеты. Имеешь опыт работы в логистических...",
+        "responsibility": "Координация перевозок транспорта между складами (планирование транспорта согласно графику пополнения складов). Вывоз объема (поиск спотовых ТС). Контроль работы водителей на..."
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "shift",
+        "name": "Сменный график"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "67",
+          "name": "Менеджер по логистике, менеджер по ВЭД"
+        }
+      ],
+      "accept_incomplete_resumes": true,
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false,
+      "adv_context": null
+    },
+    {
+      "id": "109459230",
+      "premium": false,
+      "name": "Менеджер по развитию клиентов",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "26",
+        "name": "Воронеж",
+        "url": "https://api.hh.ru/areas/26"
+      },
+      "salary": {
+        "from": 45000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2024-11-12T08:17:52+0300",
+      "created_at": "2024-11-12T08:17:52+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=109459230",
+      "branding": {
+        "type": "MAKEUP",
+        "tariff": null
+      },
+      "show_logo_in_search": true,
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/109459230?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/109459230",
+      "relations": [],
+      "employer": {
+        "id": "9498120",
+        "name": "Яндекс Команда для бизнеса",
+        "url": "https://api.hh.ru/employers/9498120",
+        "alternate_url": "https://hh.ru/employer/9498120",
+        "logo_urls": {
+          "original": "https://img.hhcdn.ru/employer-logo-original/1121425.jpg",
+          "90": "https://img.hhcdn.ru/employer-logo/6106293.jpeg",
+          "240": "https://img.hhcdn.ru/employer-logo/6106294.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9498120",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": null,
+        "responsibility": "Развивать отношения с действующими корпоративными клиентами малого и среднего бизнеса. Совершать звонки по базе потенциальных клиентов. Работать в CRM-системе. "
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "70",
+          "name": "Менеджер по продажам, менеджер по работе с клиентами"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false,
+      "adv_context": null
+    },
+    {
+      "id": "105486075",
+      "premium": false,
+      "name": "Ретушер",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "43",
+        "name": "Калуга",
+        "url": "https://api.hh.ru/areas/43"
+      },
+      "salary": {
+        "from": null,
+        "to": 40000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2024-11-21T09:52:45+0300",
+      "created_at": "2024-11-21T09:52:45+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=105486075",
+      "branding": {
+        "type": "MAKEUP",
+        "tariff": null
+      },
+      "show_logo_in_search": true,
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/105486075?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/105486075",
+      "relations": [],
+      "employer": {
+        "id": "9498120",
+        "name": "Яндекс Команда для бизнеса",
+        "url": "https://api.hh.ru/employers/9498120",
+        "alternate_url": "https://hh.ru/employer/9498120",
+        "logo_urls": {
+          "original": "https://img.hhcdn.ru/employer-logo-original/1121425.jpg",
+          "90": "https://img.hhcdn.ru/employer-logo/6106293.jpeg",
+          "240": "https://img.hhcdn.ru/employer-logo/6106294.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9498120",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Уверенный пользователь Adobe Lightroom, Adobe Photoshop. Владеешь чувством прекрасного и усидчивостью. Имеешь опыт работы с визуальным контентом от 6-ти...",
+        "responsibility": "Отбор фотографий со съемок + пакетная обработка отобранных фотографий. Ретушь фотографий (цветокоррекция, удаление ненужных элементов и прочее). Работа с фотостоками..."
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "139",
+          "name": "Фотограф, ретушер"
+        }
+      ],
+      "accept_incomplete_resumes": true,
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false,
+      "adv_context": null
+    },
+    {
+      "id": "103022074",
+      "premium": false,
+      "name": "Специалист по проверке документов",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "79",
+        "name": "Саратов",
+        "url": "https://api.hh.ru/areas/79"
+      },
+      "salary": {
+        "from": 25575,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2024-11-26T11:45:52+0300",
+      "created_at": "2024-11-26T11:45:52+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=103022074",
+      "branding": {
+        "type": "MAKEUP",
+        "tariff": null
+      },
+      "show_logo_in_search": true,
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/103022074?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/103022074",
+      "relations": [],
+      "employer": {
+        "id": "9498120",
+        "name": "Яндекс Команда для бизнеса",
+        "url": "https://api.hh.ru/employers/9498120",
+        "alternate_url": "https://hh.ru/employer/9498120",
+        "logo_urls": {
+          "original": "https://img.hhcdn.ru/employer-logo-original/1121425.jpg",
+          "90": "https://img.hhcdn.ru/employer-logo/6106293.jpeg",
+          "240": "https://img.hhcdn.ru/employer-logo/6106294.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9498120",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Внимателен к деталям. Ответственно подходишь к выполнению задач. Владеешь компьютером и имеешь высокоскоростной интернет для удаленной работы. Любишь работать в...",
+        "responsibility": "Проводить визуальный контроль документов. Заполнять карточки водителей."
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "40",
+          "name": "Другое"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false,
+      "adv_context": null
+    },
+    {
+      "id": "111751221",
+      "premium": false,
+      "name": "Старший смены склада",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1"
+      },
+      "salary": {
+        "from": 144000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": {
+        "city": "деревня Грибки",
+        "street": "Ангарская улица",
+        "building": "вл8с12",
+        "lat": 55.955604,
+        "lng": 37.56441,
+        "description": null,
+        "raw": "деревня Грибки, Ангарская улица, вл8с12",
+        "metro": null,
+        "metro_stations": [],
+        "id": "13724825"
+      },
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2024-11-25T12:17:15+0300",
+      "created_at": "2024-11-25T12:17:15+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=111751221",
+      "branding": {
+        "type": "MAKEUP",
+        "tariff": null
+      },
+      "show_logo_in_search": true,
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/111751221?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/111751221",
+      "relations": [],
+      "employer": {
+        "id": "9498120",
+        "name": "Яндекс Команда для бизнеса",
+        "url": "https://api.hh.ru/employers/9498120",
+        "alternate_url": "https://hh.ru/employer/9498120",
+        "logo_urls": {
+          "90": "https://img.hhcdn.ru/ichameleon/398632.png",
+          "240": "https://img.hhcdn.ru/ichameleon/398632.png",
+          "original": "https://img.hhcdn.ru/ichameleon/398632.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9498120",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Работали в крупных фулфилмент-центрах или складских комплексах в должности руководителя склада или смежных должностях и готовы продолжить развитие профессиональных...",
+        "responsibility": "Выполнять задачи, стоящие перед сменой на СЦ. Составлять отчетность по работе смены СЦ. Участвовать в разработке улучшений в рамках своего..."
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "shift",
+        "name": "Сменный график"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "81",
+          "name": "Начальник склада"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false,
+      "adv_context": null
+    },
+    {
+      "id": "111965908",
+      "premium": false,
+      "name": "Клиентский менеджер",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "53",
+        "name": "Краснодар",
+        "url": "https://api.hh.ru/areas/53"
+      },
+      "salary": {
+        "from": 40000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2024-11-27T12:28:49+0300",
+      "created_at": "2024-11-27T12:28:49+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=111965908",
+      "branding": {
+        "type": "MAKEUP",
+        "tariff": null
+      },
+      "show_logo_in_search": true,
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/111965908?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/111965908",
+      "relations": [],
+      "employer": {
+        "id": "9498120",
+        "name": "Яндекс Команда для бизнеса",
+        "url": "https://api.hh.ru/employers/9498120",
+        "alternate_url": "https://hh.ru/employer/9498120",
+        "logo_urls": {
+          "original": "https://img.hhcdn.ru/employer-logo-original/1121425.jpg",
+          "90": "https://img.hhcdn.ru/employer-logo/6106293.jpeg",
+          "240": "https://img.hhcdn.ru/employer-logo/6106294.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9498120",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Уверенно чувствуешь себя в переговорном процессе. Легко доносишь свою мысль в переписке. Внимателен к деталям. Стремишься к профессиональному развитию. ",
+        "responsibility": "Осуществлять продажу рекламных продуктов малому и среднему бизнесу. Развивать существующую клиентскую базу. Вести первичные переговоры по телефону с собственниками бизнеса..."
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "70",
+          "name": "Менеджер по продажам, менеджер по работе с клиентами"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false,
+      "adv_context": null
+    },
+    {
+      "id": "109459228",
+      "premium": false,
+      "name": "Менеджер по развитию клиентов",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "24",
+        "name": "Волгоград",
+        "url": "https://api.hh.ru/areas/24"
+      },
+      "salary": {
+        "from": 45000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2024-11-12T08:17:47+0300",
+      "created_at": "2024-11-12T08:17:47+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=109459228",
+      "branding": {
+        "type": "MAKEUP",
+        "tariff": null
+      },
+      "show_logo_in_search": true,
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/109459228?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/109459228",
+      "relations": [],
+      "employer": {
+        "id": "9498120",
+        "name": "Яндекс Команда для бизнеса",
+        "url": "https://api.hh.ru/employers/9498120",
+        "alternate_url": "https://hh.ru/employer/9498120",
+        "logo_urls": {
+          "original": "https://img.hhcdn.ru/employer-logo-original/1121425.jpg",
+          "90": "https://img.hhcdn.ru/employer-logo/6106293.jpeg",
+          "240": "https://img.hhcdn.ru/employer-logo/6106294.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9498120",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": null,
+        "responsibility": "Развивать отношения с действующими корпоративными клиентами малого и среднего бизнеса. Совершать звонки по базе потенциальных клиентов. Работать в CRM-системе. "
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "70",
+          "name": "Менеджер по продажам, менеджер по работе с клиентами"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false,
+      "adv_context": null
+    },
+    {
+      "id": "105000749",
+      "premium": false,
+      "name": "Ретушер",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "24",
+        "name": "Волгоград",
+        "url": "https://api.hh.ru/areas/24"
+      },
+      "salary": {
+        "from": null,
+        "to": 40000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2024-11-12T16:08:27+0300",
+      "created_at": "2024-11-12T16:08:27+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=105000749",
+      "branding": {
+        "type": "MAKEUP",
+        "tariff": null
+      },
+      "show_logo_in_search": true,
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/105000749?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/105000749",
+      "relations": [],
+      "employer": {
+        "id": "9498120",
+        "name": "Яндекс Команда для бизнеса",
+        "url": "https://api.hh.ru/employers/9498120",
+        "alternate_url": "https://hh.ru/employer/9498120",
+        "logo_urls": {
+          "original": "https://img.hhcdn.ru/employer-logo-original/1121425.jpg",
+          "90": "https://img.hhcdn.ru/employer-logo/6106293.jpeg",
+          "240": "https://img.hhcdn.ru/employer-logo/6106294.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9498120",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Уверенный пользователь Adobe Lightroom, Adobe Photoshop. Владеешь чувством прекрасного и усидчивостью. Имеешь опыт работы с визуальным контентом от 6-ти...",
+        "responsibility": "Отбор фотографий со съемок + пакетная обработка отобранных фотографий. Ретушь фотографий (цветокоррекция, удаление ненужных элементов и прочее). Работа с фотостоками..."
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "139",
+          "name": "Фотограф, ретушер"
+        }
+      ],
+      "accept_incomplete_resumes": true,
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false,
+      "adv_context": null
+    },
+    {
+      "id": "111850387",
+      "premium": false,
+      "name": "Паяльщик в Яндекс",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "1",
+        "name": "Москва",
+        "url": "https://api.hh.ru/areas/1"
+      },
+      "salary": {
+        "from": 95000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": {
+        "city": "Москва",
+        "street": "1-й Красногвардейский проезд",
+        "building": "21с1",
+        "lat": 55.749983,
+        "lng": 37.534442,
+        "description": null,
+        "raw": "Москва, 1-й Красногвардейский проезд, 21с1",
+        "metro": {
+          "station_name": "Москва-Сити",
+          "line_name": "Филевская",
+          "station_id": "4.179",
+          "line_id": "4",
+          "lat": 55.748056,
+          "lng": 37.532778
+        },
+        "metro_stations": [
+          {
+            "station_name": "Москва-Сити",
+            "line_name": "Филевская",
+            "station_id": "4.179",
+            "line_id": "4",
+            "lat": 55.748056,
+            "lng": 37.532778
+          }
+        ],
+        "id": "16128645"
+      },
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2024-11-26T09:50:30+0300",
+      "created_at": "2024-11-26T09:50:30+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=111850387",
+      "branding": {
+        "type": "MAKEUP",
+        "tariff": null
+      },
+      "show_logo_in_search": true,
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/111850387?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/111850387",
+      "relations": [],
+      "employer": {
+        "id": "9498120",
+        "name": "Яндекс Команда для бизнеса",
+        "url": "https://api.hh.ru/employers/9498120",
+        "alternate_url": "https://hh.ru/employer/9498120",
+        "logo_urls": {
+          "original": "https://img.hhcdn.ru/employer-logo-original/1121425.jpg",
+          "90": "https://img.hhcdn.ru/employer-logo/6106293.jpeg",
+          "240": "https://img.hhcdn.ru/employer-logo/6106294.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9498120",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Умеете обращаться с электроприборами. Уверенно обращаетесь с измерительными инструментами. Читаете электрические и монтажные схемы. Имеете знание номенклатуры электронных компонентов, типов...",
+        "responsibility": "Распайка компонентов корпусов, соединительных кабелей (до 0402, QFN и BGA). Контроль качества монтажа, тестирование. Проведение ремонтно-диагностических работ на печатных..."
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "fullDay",
+        "name": "Полный день"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "40",
+          "name": "Другое"
+        }
+      ],
+      "accept_incomplete_resumes": true,
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false,
+      "adv_context": null
+    },
+    {
+      "id": "109459457",
+      "premium": false,
+      "name": "Менеджер по работе с корпоративными клиентами",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "79",
+        "name": "Саратов",
+        "url": "https://api.hh.ru/areas/79"
+      },
+      "salary": {
+        "from": 45000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2024-11-12T08:18:12+0300",
+      "created_at": "2024-11-12T08:18:12+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=109459457",
+      "branding": {
+        "type": "MAKEUP",
+        "tariff": null
+      },
+      "show_logo_in_search": true,
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/109459457?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/109459457",
+      "relations": [],
+      "employer": {
+        "id": "9498120",
+        "name": "Яндекс Команда для бизнеса",
+        "url": "https://api.hh.ru/employers/9498120",
+        "alternate_url": "https://hh.ru/employer/9498120",
+        "logo_urls": {
+          "original": "https://img.hhcdn.ru/employer-logo-original/1121425.jpg",
+          "90": "https://img.hhcdn.ru/employer-logo/6106293.jpeg",
+          "240": "https://img.hhcdn.ru/employer-logo/6106294.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9498120",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Проводной интернет/ wi-fi со скоростью от 10 Mb/s (мобильный интернет не подойдет), наушники с микрофоном.",
+        "responsibility": "Из 8 часов работы 2–3 часа общайся по телефону с клиентами (базу клиентов предоставляем). Работай с клиентской базой в..."
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "70",
+          "name": "Менеджер по продажам, менеджер по работе с клиентами"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false,
+      "adv_context": null
+    },
+    {
+      "id": "110259594",
+      "premium": false,
+      "name": "Менеджер сопровождения действующих партнеров",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "78",
+        "name": "Самара",
+        "url": "https://api.hh.ru/areas/78"
+      },
+      "salary": {
+        "from": null,
+        "to": 66000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2024-11-06T16:51:00+0300",
+      "created_at": "2024-11-06T16:51:00+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=110259594",
+      "branding": {
+        "type": "MAKEUP",
+        "tariff": null
+      },
+      "show_logo_in_search": true,
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/110259594?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/110259594",
+      "relations": [],
+      "employer": {
+        "id": "9498120",
+        "name": "Яндекс Команда для бизнеса",
+        "url": "https://api.hh.ru/employers/9498120",
+        "alternate_url": "https://hh.ru/employer/9498120",
+        "logo_urls": {
+          "original": "https://img.hhcdn.ru/employer-logo-original/1121425.jpg",
+          "90": "https://img.hhcdn.ru/employer-logo/6106293.jpeg",
+          "240": "https://img.hhcdn.ru/employer-logo/6106294.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9498120",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Работал с клиентами сегмента B2B (продажи IT-продуктов или SAS-решений преимущественно) или имеешь опыт работы КАМом (сопровождение...",
+        "responsibility": "Работа с действующими партнерами. Адаптация партнеров в работе с нашим продуктом (проведение обучения для партнера). Сопровождение и помощь по возникающим..."
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "71",
+          "name": "Менеджер по работе с партнерами"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false,
+      "adv_context": null
+    },
+    {
+      "id": "109555319",
+      "premium": false,
+      "name": "Редактор в Яндекс Директ",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "66",
+        "name": "Нижний Новгород",
+        "url": "https://api.hh.ru/areas/66"
+      },
+      "salary": {
+        "from": 70000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2024-11-12T08:14:39+0300",
+      "created_at": "2024-11-12T08:14:39+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=109555319",
+      "branding": {
+        "type": "MAKEUP",
+        "tariff": null
+      },
+      "show_logo_in_search": true,
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/109555319?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/109555319",
+      "relations": [],
+      "employer": {
+        "id": "9498120",
+        "name": "Яндекс Команда для бизнеса",
+        "url": "https://api.hh.ru/employers/9498120",
+        "alternate_url": "https://hh.ru/employer/9498120",
+        "logo_urls": {
+          "original": "https://img.hhcdn.ru/employer-logo-original/1121425.jpg",
+          "90": "https://img.hhcdn.ru/employer-logo/6106293.jpeg",
+          "240": "https://img.hhcdn.ru/employer-logo/6106294.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9498120",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Опыт работы с текстами от полугода: вы легко определяете канцеляризмы, упрощаете синтаксис, заменяете отглагольные и умеете объяснять сложные вещи простым...",
+        "responsibility": "Составлять и обновлять регламенты работы для разных направлений в поддержке. Создавать контент под запуски новых фич и сервисов. "
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "55",
+          "name": "Копирайтер, редактор, корректор"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false,
+      "adv_context": null
+    },
+    {
+      "id": "109555320",
+      "premium": false,
+      "name": "Редактор в Яндекс Директ",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "78",
+        "name": "Самара",
+        "url": "https://api.hh.ru/areas/78"
+      },
+      "salary": {
+        "from": 70000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2024-11-12T08:14:43+0300",
+      "created_at": "2024-11-12T08:14:43+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=109555320",
+      "branding": {
+        "type": "MAKEUP",
+        "tariff": null
+      },
+      "show_logo_in_search": true,
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/109555320?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/109555320",
+      "relations": [],
+      "employer": {
+        "id": "9498120",
+        "name": "Яндекс Команда для бизнеса",
+        "url": "https://api.hh.ru/employers/9498120",
+        "alternate_url": "https://hh.ru/employer/9498120",
+        "logo_urls": {
+          "original": "https://img.hhcdn.ru/employer-logo-original/1121425.jpg",
+          "90": "https://img.hhcdn.ru/employer-logo/6106293.jpeg",
+          "240": "https://img.hhcdn.ru/employer-logo/6106294.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9498120",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Опыт работы с текстами от полугода: вы легко определяете канцеляризмы, упрощаете синтаксис, заменяете отглагольные и умеете объяснять сложные вещи простым...",
+        "responsibility": "Составлять и обновлять регламенты работы для разных направлений в поддержке. Создавать контент под запуски новых фич и сервисов. "
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "55",
+          "name": "Копирайтер, редактор, корректор"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false,
+      "adv_context": null
+    },
+    {
+      "id": "110111367",
+      "premium": false,
+      "name": "Кладовщик на склад Яндекс.Маркет",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "113",
+        "name": "Россия",
+        "url": "https://api.hh.ru/areas/113"
+      },
+      "salary": {
+        "from": 80000,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2024-11-05T11:08:42+0300",
+      "created_at": "2024-11-05T11:08:42+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=110111367",
+      "show_logo_in_search": null,
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/110111367?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/110111367",
+      "relations": [],
+      "employer": {
+        "id": "9498120",
+        "name": "Яндекс Команда для бизнеса",
+        "url": "https://api.hh.ru/employers/9498120",
+        "alternate_url": "https://hh.ru/employer/9498120",
+        "logo_urls": {
+          "original": "https://img.hhcdn.ru/employer-logo-original/1121425.jpg",
+          "90": "https://img.hhcdn.ru/employer-logo/6106293.jpeg",
+          "240": "https://img.hhcdn.ru/employer-logo/6106294.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9498120",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": null,
+        "responsibility": "Приемка, сортировка и отгрузка упакованных заказов с помощью Терминала Сбора Данных (ТСД). Проверка принимаемых заказов на соответствие требованиям. "
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "shift",
+        "name": "Сменный график"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "52",
+          "name": "Кладовщик"
+        }
+      ],
+      "accept_incomplete_resumes": true,
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false,
+      "adv_context": null
+    },
+    {
+      "id": "109432999",
+      "premium": false,
+      "name": "Контент-менеджер (Аптеки)",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "89",
+        "name": "Тверь",
+        "url": "https://api.hh.ru/areas/89"
+      },
+      "salary": {
+        "from": null,
+        "to": 40000,
+        "currency": "RUR",
+        "gross": true
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2024-11-26T12:24:27+0300",
+      "created_at": "2024-11-26T12:24:27+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=109432999",
+      "branding": {
+        "type": "MAKEUP",
+        "tariff": null
+      },
+      "show_logo_in_search": true,
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/109432999?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/109432999",
+      "relations": [],
+      "employer": {
+        "id": "9498120",
+        "name": "Яндекс Команда для бизнеса",
+        "url": "https://api.hh.ru/employers/9498120",
+        "alternate_url": "https://hh.ru/employer/9498120",
+        "logo_urls": {
+          "original": "https://img.hhcdn.ru/employer-logo-original/1121425.jpg",
+          "90": "https://img.hhcdn.ru/employer-logo/6106293.jpeg",
+          "240": "https://img.hhcdn.ru/employer-logo/6106294.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9498120",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Способен работать в режиме многозадачности. Владеешь грамотной устной и письменной речью. Готов учится новому и предлагать изменения в старом. ",
+        "responsibility": "Заполнение каталогов продукции аптек. Типизация ассортимента. Исправление ошибок в карточках аптечных товаров. Отправка фото на обработку ретушерам. Внедрять идеи по..."
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "3",
+          "name": "SMM-менеджер, контент-менеджер"
+        }
+      ],
+      "accept_incomplete_resumes": true,
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false,
+      "adv_context": null
+    },
+    {
+      "id": "106580735",
+      "premium": false,
+      "name": "Специалист по проверке документов",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+        "id": "76",
+        "name": "Ростов-на-Дону",
+        "url": "https://api.hh.ru/areas/76"
+      },
+      "salary": {
+        "from": 25575,
+        "to": null,
+        "currency": "RUR",
+        "gross": true
+      },
+      "type": {
+        "id": "open",
+        "name": "Открытая"
+      },
+      "address": null,
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2024-11-26T11:45:44+0300",
+      "created_at": "2024-11-26T11:45:44+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=106580735",
+      "branding": {
+        "type": "MAKEUP",
+        "tariff": null
+      },
+      "show_logo_in_search": true,
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/106580735?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/106580735",
+      "relations": [],
+      "employer": {
+        "id": "9498120",
+        "name": "Яндекс Команда для бизнеса",
+        "url": "https://api.hh.ru/employers/9498120",
+        "alternate_url": "https://hh.ru/employer/9498120",
+        "logo_urls": {
+          "original": "https://img.hhcdn.ru/employer-logo-original/1121425.jpg",
+          "90": "https://img.hhcdn.ru/employer-logo/6106293.jpeg",
+          "240": "https://img.hhcdn.ru/employer-logo/6106294.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9498120",
+        "accredited_it_employer": false,
+        "trusted": true
+      },
+      "snippet": {
+        "requirement": "Внимателен к деталям. Ответственно подходишь к выполнению задач. Владеешь компьютером и имеешь высокоскоростной интернет для удаленной работы. Любишь работать в...",
+        "responsibility": "Проводить визуальный контроль документов. Заполнять карточки водителей."
+      },
+      "contacts": null,
+      "schedule": {
+        "id": "remote",
+        "name": "Удаленная работа"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+        {
+          "id": "40",
+          "name": "Другое"
+        }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false,
+      "adv_context": null
+    }
+  ],
+  "found": 14227,
+  "pages": 100,
+  "page": 0,
+  "per_page": 20,
+  "clusters": null,
+  "arguments": null,
+  "fixes": null,
+  "suggests": null,
+  "alternate_url": "https://hh.ru/search/vacancy?employer_id=9498120&enable_snippets=true"
+}
